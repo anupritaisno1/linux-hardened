@@ -102,7 +102,7 @@
 
 /* External variables not in a header file. */
 #if IS_ENABLED(CONFIG_USB)
-int deny_new_usb __read_mostly = 0;
+int deny_new_usb __read_mostly = 1;
 EXPORT_SYMBOL(deny_new_usb);
 #endif
 extern int suid_dumpable;
