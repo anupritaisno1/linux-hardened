@@ -1,0 +1,1 @@
+terminal.o: terminal.c
